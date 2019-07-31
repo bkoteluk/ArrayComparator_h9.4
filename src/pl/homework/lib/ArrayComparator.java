@@ -9,6 +9,7 @@ public class ArrayComparator {
             for(int number : array1) {
                 if (number != array2[i]) {
                     arrayEqual =false;
+                    break;
                 }
                 i++;
             }
@@ -25,6 +26,7 @@ public class ArrayComparator {
             for (int[] array : array1) {
                 if (!compare(array,array2[i])) {
                     arrayEqual = false;
+                    break;
                 }
                 i++;
             }

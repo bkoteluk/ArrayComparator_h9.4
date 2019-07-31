@@ -4,7 +4,7 @@ import static pl.homework.lib.ArrayComparator.compare;
 
 public class ArrayTest {
     public static void main(String[] args) {
-        int[] array1 = {0, 1, 3, 3, 4, 5, 6, 7, 8, 9};
+        int[] array1 = {1, 1, 3, 3, 4, 5, 6, 7, 8, 9};
         int[] array2 = {0, 1, 3, 3, 4, 5, 6, 7, 8, 9};
 
         System.out.println("Tabele są równe ? " + compare(array1, array2));
